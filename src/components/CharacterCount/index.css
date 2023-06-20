@@ -1,0 +1,89 @@
+.app-container {
+  display: flex;
+  width: 100%;
+  max-width: 900px;
+
+  height: 60vh;
+  font-family: 'Roboto';
+}
+
+.left-container {
+  background-color: #ffc533;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right-container {
+  background-color: #0f172a;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-and-button {
+  width: 400px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  cursor: pointer;
+  outline: none;
+  width: 110px;
+  border-radius: 4px;
+  font-weight: 600;
+  color: #272c47;
+  background-color: #ffbf1f;
+  font-size: 18px;
+}
+
+.text-bar {
+  width: 260px;
+  font-size: 18px;
+  border-radius: 4px;
+  padding-left: 10px;
+  color: #1e293b;
+  outline: none;
+}
+
+.left-heading {
+  padding: 20px;
+  margin: 10px;
+  height: 200px;
+  border-radius: 4px;
+  color: #334155;
+  font-size: 40px;
+  font-weight: 800;
+  background-color: #ffbf1f;
+}
+
+.right-heading {
+  color: #ffbf1f;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.uo-list {
+  list-style-type: none;
+  height: 200px;
+  width: 400px;
+}
+
+.overflow-content {
+  overflow-y: scroll;
+  list-style-type: none;
+}
+
+.paragraph {
+  font-size: 25px;
+  color: #0f172a;
+  font-weight: 600;
+}
+
+.length {
+  font-size: 30px;
+}
